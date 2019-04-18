@@ -11,7 +11,7 @@ public class Inventory : MonoBehaviour
     {
         if(itemsParent != null)
         {
-            itemSlots = itemsParent.GetComponentInChildren<ItemSlot>();
+            itemSlots = itemsParent.GetComponentInChildren<ItemSlot[]>();
         }
     }
 
